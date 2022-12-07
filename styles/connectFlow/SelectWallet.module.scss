@@ -1,0 +1,37 @@
+.container {
+  display: none;
+  &Open {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      z-index: 10;
+      top: 50%;
+      left: 50%;
+      translate: -50% -50%;
+      margin-top: 23px;
+      width: min(100% - 2rem, 600px);
+      opacity: 1;
+      translate: -50% -50%;
+    }
+    .topHalf {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2rem;
+      margin: 0 auto;
+      width: auto;
+    }
+
+  .buttonContainer {
+    padding: 3rem 5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    .button {
+      text-transform: none;
+    }
+    @media(max-width: 600px){
+        padding: 1rem 2rem 60px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.container {
+    width: max-content;
+    min-width: 174px;
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 10px 40px;
+    background: #db3dac;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 0.5s;
+
+    span {
+        margin: auto;
+    }
+
+    &:hover {
+        background: #19226d;
+    }
+}
+
+.fullWidth {
+    width: 100%;
+    padding: 10px;
+}
